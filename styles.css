@@ -107,7 +107,7 @@ header {
 
 
 div.gallery {
-    border: 1px solid #ccc;
+    border: 1px solid black;
 }
 
 div.gallery:hover {
@@ -117,26 +117,30 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
+    size: 50px;
+
 }
 
 div.desc {
     padding: 15px;
     text-align: center;
+    background-color: white;
 }
 
 * {
     box-sizing: border-box;
+
 }
 
 .responsive {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    width: 33.99999%;
 }
 
 @media only screen and (max-width: 700px) {
     .responsive {
-        width: 49.99999%;
+        width: 49.99999%%;
         margin: 6px 0;
     }
 }
