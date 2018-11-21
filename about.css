@@ -23,7 +23,6 @@
 .header a.logo {
   font-size: 50px;
   font-weight: bold;
-  color:  #00b899;
 }
 
 img {
@@ -61,110 +60,11 @@ img {
   }
 }
 
-/* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
-  height: 100%;
-  font-family:sans-serif;
-  background-color: grey;
-}
-
-/* Style tab links */
-.tablink {
-  background-color: #131f28;
-  color: #00b899;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 28px;
-  font-weight: bold;
-  font-style: Arial;
-  width: 50%;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
-
-#Homeless {
-  background-color: #ccff66;
-  color: black;
-  font-style: Arial;
-  font-size: 28px;
-}
-
-#Helpers {
-  background-color: #ffff66;
-  color: black;
-  font-style: Arial;
-  font-size: 28px;
-
-}
-
-
-
-
-div.gallery {
-    border: 1px solid black;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: 200px;
-
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-    background-color: white;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+h1 {
+ color: black;
+ font-family: Arial;
+ font-size: 30px;
+ text-align: center;
 }
 
 
