@@ -25,6 +25,7 @@
 
 img {
   height: 50px;
+  
 }
 
 /* Change the background color on mouse-over */
@@ -73,7 +74,8 @@ body, html {
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  font-size: 17px;
+  font-size: 28px;
+  font-style: Arial;
   width: 50%;
 }
 
@@ -92,11 +94,16 @@ body, html {
 #Homeless {
   background-color: #ccff66;
   color: black;
+  font-style: Arial;
+  font-size: 28px;
 }
 
 #Helpers {
   background-color: #ffff66;
   color: black;
+  font-style: Arial;
+  font-size: 28px;
+
 }
 
 
