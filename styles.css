@@ -25,7 +25,7 @@
 
 img {
   height: 50px;
-  
+
 }
 
 /* Change the background color on mouse-over */
@@ -111,6 +111,7 @@ body, html {
 
 div.gallery {
     border: 1px solid black;
+
 }
 
 div.gallery:hover {
@@ -118,8 +119,8 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: 100%;
-    height: auto;
+    width: 356px;
+    height: 200px;
 
 }
 
@@ -131,7 +132,6 @@ div.desc {
 
 * {
     box-sizing: border-box;
-
 }
 
 .responsive {
