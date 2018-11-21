@@ -2,8 +2,9 @@
 <html>
 
 <head>
+  <link href='C:\Users\Azzurra\Desktop\Coding_Course\GitHub\ran-web-project\Bootstrap\bootstrap-3.3.7-dist\css\bootstrap.min.css' rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Homeless Helpline</title>
 </head>
 
@@ -18,9 +19,8 @@
   </div>
 
 
-
-  <button class="tablink" onclick="openPage('Homeless', this, '#ccff66') " id="defaultOpen">For Homeless</button>
-  <button class="tablink" onclick="openPage('Helpers', this, '#ffff66')">For Helpers</button>
+  <button class="tablink" onclick="openPage('Homeless', this, '#ccff66') " id="defaultOpen">For homeless</button>
+  <button class="tablink" onclick="openPage('Helpers', this, '#ffff66')">For helpers</button>
 
 
   <div id="Homeless" class="tabcontent">
@@ -29,7 +29,7 @@
     <div class="responsive">
       <div class="gallery">
         <a target="_blank" href="help.jpg">
-          <img src="help.jpg" alt="Cinque Terre" width="600" height="400">
+          <img src="immediatehelp.jpg" alt="Cinque Terre" width="600" height="400">
         </a>
         <div class="desc">Immediate help</div>
       </div>
@@ -50,28 +50,28 @@
         <a target="_blank" href="resource.jpg">
           <img src="resource.jpg" alt="Northern Lights" width="600" height="400">
         </a>
-        <div class="desc">Resource</div>
+        <div class="desc">Resources</div>
       </div>
     </div>
 
     <div class="responsive">
       <div class="gallery">
         <a target="_blank" href="jobs&recruitment.jpg">
-          <img src="jobs&recruitment.jpg" alt="Mountains" width="600" height="400">
+          <img src="work.jpg" alt="Mountains" width="600" height="400">
         </a>
-        <div class="desc">Jobs & Recruitment</div>
+        <div class="desc">Jobs</div>
       </div>
     </div>
 
     <div class="clearfix"></div>
 
     <div style="padding:6px;">
+
     </div>
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
   </div>
 
   <div id="Helpers" class="tabcontent">
+
     <div class="responsive">
       <div class="gallery">
         <a target="_blank" href="help.jpg">
@@ -114,11 +114,16 @@
     <div style="padding:6px;">
 
     </div>
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
   </div>
 
-  <script src="myscript.js"> </script>
+  <div class="footer">
+    <div id="social-buttons">
+      <a href="#" class="fa fa-facebook"></a></button>
+      <a href="#" class="fa fa-twitter"></a></button>
+    </div>
+  </div>
+
+  <script src="myscript.js"></script>
 </body>
 
 </html>

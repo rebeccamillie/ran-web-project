@@ -101,10 +101,6 @@ body, html {
 
 
 
-header {
-  height: 100%;
-}
-
 
 div.gallery {
     border: 1px solid black;
@@ -134,7 +130,7 @@ div.desc {
 .responsive {
     padding: 0 6px;
     float: left;
-    width: 26.99999%;
+    width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -155,6 +151,33 @@ div.desc {
     display: table;
     clear: both;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.footer .fa {
+    padding: 5px;
+    margin: 10px;
+    font-size: 32px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 1);
+    border: solid 2px rgba(255, 255, 255, 0.7);
+}
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -162,8 +185,6 @@ div.desc {
     width: 50px;
     text-align: center;
     text-decoration: none;
-
-  
 }
 
 /* Add a hover effect if you want */
