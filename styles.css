@@ -1,7 +1,16 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(bebas-neue/BebasNeue.OTF);
+}
+
+div {
+    font-family: myFirstFont;
+}
+
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: white;
   padding: 20px 10px;
 }
 
@@ -15,6 +24,7 @@
   font-size: 25px;
   line-height: 25px;
   border-radius: 4px;
+  background-color: white;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -106,12 +116,9 @@ body, html {
 
 }
 
-
-
-
+<style>
 div.gallery {
-    border: 1px solid black;
-
+    border: 1px solid #ccc;
 }
 
 div.gallery:hover {
@@ -119,15 +126,13 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: 356px;
-    height: 200px;
-
+    width: 99.5%;
+    height: auto;
 }
 
 div.desc {
     padding: 15px;
     text-align: center;
-    background-color: white;
 }
 
 * {
@@ -142,7 +147,7 @@ div.desc {
 
 @media only screen and (max-width: 700px) {
     .responsive {
-        width: 49.99999%%;
+        width: 49.99999%;
         margin: 6px 0;
     }
 }
