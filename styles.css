@@ -71,7 +71,7 @@ body, html {
 /* Style tab links */
 .tablink {
   background-color: #131f28;
-  color: #00b899;
+  color: white;
   float: left;
   border: none;
   outline: none;
@@ -96,25 +96,25 @@ body, html {
 }
 
 #Homeless {
-  background-color: #ccff66;
-  color: black;
+  background-color:  #527a7a;
+  color: white;
   font-style: Arial;
   font-size: 28px;
 }
 
 #Helpers {
-  background-color: #ffff66;
-  color: black;
+  background-color: #527a7a;
+  color: white;
   font-style: Arial;
   font-size: 28px;
-
 }
 
 
 
 
 div.gallery {
-    border: 1px solid black;
+    border: 1px solid #131f28;
+    border-width: thick;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -136,7 +136,9 @@ div.desc {
     padding: 15px;
     text-align: center;
     background-color: white;
+    color: #527a7a;
 }
+
 
 * {
     box-sizing: border-box;
@@ -220,4 +222,12 @@ div.desc {
 .fa-twitter {
     background: #55ACEE;
     color: white;
+}
+
+p {
+  font-family: serif;
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+
 }
