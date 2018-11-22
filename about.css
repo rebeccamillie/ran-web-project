@@ -39,6 +39,10 @@ img {
 
 }
 
+.header img{
+  margin-left:20px;
+}
+
 /* Change the background color on mouse-over */
 .header a:hover {
   background-color: #ddd;
@@ -100,7 +104,6 @@ font-family: myOtherFont;
 font-size: 25px;
 text-align: left;
 margin: 0px;
-background-color: #527a7a;
 
 }
 h3 {color: black;
@@ -108,7 +111,6 @@ font-family: myOtherFont;
 font-size: 25px;
 text-align: left;
 margin: 0px;
-background-color: #527a7a;
 
 }
 p, li {color: black;
@@ -116,8 +118,8 @@ font-family: myOtherFontLight;
 font-size: 20px;
 text-align: left;
 margin: 0px;
-background-color: #527a7a;
 }
+
 
 .footer {
     position: relative;

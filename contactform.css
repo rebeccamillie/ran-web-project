@@ -41,6 +41,10 @@ img {
 
 }
 
+.header img{
+  margin-left:20px;
+}
+
 /* Change the background color on mouse-over */
 .header a:hover {
   background-color: #ddd;
