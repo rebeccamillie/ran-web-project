@@ -181,20 +181,12 @@ div.desc {
     clear: both;
 }
 
-
 .footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #131f28;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    text-align: center;
-    margin-left: 0px;
-    margin-right: 60px;
+  background-color: #131f28;
+  text-align: center;
+  color: white;
 }
+
 
 .footer .fa {
     padding: 5px;
@@ -205,7 +197,7 @@ div.desc {
     border-radius: 20%;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 1);
-    border: solid 2px rgba(255, 255, 255, 0.7);
+    border: solid 2px rgba(255, 255, 255, 1);
 }
 
 /* Style all font awesome icons */
@@ -235,6 +227,7 @@ div.desc {
     background: #55ACEE;
     color: white;
 }
+
 
 p {
   font-family: serif;
