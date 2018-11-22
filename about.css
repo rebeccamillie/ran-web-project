@@ -10,7 +10,6 @@ div {
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
   background-color: #e8f0f0;
   padding: 20px 10px;
 }
@@ -18,12 +17,10 @@ div {
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
   color: #00b899;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 25px;
   font-size: 26px;
   font-style: arial;
   font-weight: bold;
@@ -35,13 +32,13 @@ div {
 .header a.logo {
   font-size: 50px;
   font-weight: bold;
-  color:  #00b899;
 }
 
 img {
   height: 50px;
 
 }
+
 .header img{
   margin-left:20px;
 }
@@ -76,123 +73,59 @@ img {
   }
 }
 
-/* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-  font-family:sans-serif;
+body {
   background-color: #e8f0f0;
 }
 
-/* Style tab links */
-.tablink {
-  background-color: #555;
-  color: black;
-  background-color: #131f28;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  font-size: 28px;
-  font-weight: bold;
-  font-style: Arial;
-  width: 50%;
+@font-face {
+    font-family: myOtherFontBold;
+    src: url(roboto-condensed/RobotoCondensed-Bold.TTF);
 }
 
-.tablink:hover {
-  background-color: #777;
+@font-face {
+    font-family: myOtherFont;
+    src: url(roboto-condensed/RobotoCondensed-Regular.TTF);
 }
 
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
+@font-face {
+    font-family: myOtherFontLight;
+    src: url(roboto-condensed/RobotoCondensed-Light.TTF);
 }
 
-#Homeless {
-  background-color: #ccff66;
-  color: black;
-  background-color:  #527a7a;
-  color: white;
-  font-style: Arial;
-  font-size: 28px;
-}
+h1 {
+ color: #00b899;
+ background-color: #131f28;
+ font-family: myOtherFontBold;
+ font-size: 40px;
+ text-align: center;
 
-#Helpers {
-  background-color: #ffff66;
-  color: black;
-  background-color: #527a7a;
-  color: white;
-  font-style: Arial;
-  font-size: 28px;
-}
-
-
-
-header {
-  height: 100%;
-
-div.gallery {
-    border: 1px solid #131f28;
-    border-width: thick;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+ margin: 0px;
 
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
+h2 {color: black;
+font-family: myOtherFont;
+font-size: 30px;
+text-align: justify;
+margin-top: 40px;
+margin-left: 30px;
+
 }
+h3 {color: black;
+font-family: myOtherFont;
+font-size: 25px;
+text-align: justify;
+margin-left: 30px;
+margin-right: 30px;
 
-div.gallery img {
-    width: 100%;
-    height: 200px;
 
 }
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-    background-color: white;
-    color: #527a7a;
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+p, li {color: black;
+font-family: myOtherFontLight;
+font-size: 20px;
+text-align: justify;
+margin-left: 30px;
+margin-right: 30px;
 }
 
 .footer {
@@ -205,7 +138,7 @@ div.desc {
 .footer .fa {
     padding: 5px;
     font-size: 32px;
-    width: 45px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 20%;
@@ -242,11 +175,10 @@ div.desc {
     color: white;
 }
 
+body, html {
+  height: 100%;
+}
 
-p {
-  font-family: serif;
-  font-style: italic;
-  font-size: 40px;
-  text-align: center;
-
+.about {
+  height: 100%;
 }

@@ -3,6 +3,9 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href='C:\Users\Azzurra\Desktop\Coding_Course\GitHub\ran-web-project\Bootstrap\bootstrap-3.3.7-dist\css\bootstrap.min.css' rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Homeless Helpline</title>
   <script src="JAVASCRIPT/myScript.js"></script>
 </head>
@@ -11,9 +14,12 @@
 
   <div class="header">
     <a href="#default" class="logo">Homeless Helpline<img src="logo.png"></a>
+    <a href="index.html" class="logo">Homeless Helpline<img src="logo.png"></a>
     <div class="header-right">
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
+      <a href="about.html">About</a>
+      <a href="contactform.html">Contact</a>
     </div>
   </div>
 
@@ -21,18 +27,118 @@
 
   <button class="tablink" onclick="openPage('Homeless', this, '#ccff66')">For Homeless</button>
   <button class="tablink" onclick="openPage('Helpers', this, '#ffff66')">For Helpers</button>
+  <button class="tablink" onclick="openPage('Homeless', this, ' #527a7a') " id="defaultOpen">For Homeless</button>
+  <button class="tablink" onclick="openPage('Helpers', this, '#527a7a')">For Helpers</button>
 
 
   <div id="Homeless" class="tabcontent">
     <input type="text" name="search" placeholder="Search..">
+
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="help.jpg">
+          <img src="immediatehelp.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Immediate help</div>
+      </div>
+    </div>
+
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="shelter.jpg">
+          <img src="shelter.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Shelter</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="resource.jpg">
+          <img src="resource.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Resources</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="jobs&recruitment.jpg">
+          <img src="work.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Jobs</div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div style="padding:6px;">
+    </div>
+
+<p>"Altruism raises your mood because it raises your self-esteem, which increases happiness. Plus, giving to others gets you outside of yourself and distracts you from your problems."Karen Salmansohn</p>
+
   </div>
 
   <div id="Helpers" class="tabcontent">
-    <input type="text" name="search" placeholder="Search..">
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="help.jpg">
+          <img src="volunteer.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Volunteer</div>
+      </div>
+    </div>
+
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="shelter.jpg">
+          <img src="stories.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Stories</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="resource.jpg">
+          <img src="news.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">News & Updates</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="resource.jpg">
+          <img src="resource.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Resources</div>
+      </div>
+    </div>
+
+
+    <div class="clearfix"></div>
+
+    <div style="padding:6px;">
+    </div>
+
+<p>"We, all of us, could do a much better job of evoking what someone has called the universal principle of human altruism: the urge in us all to help others who are in danger." Bart Starr</p>
+
   </div>
 
+  <div class="footer">
 
+    <div id="social-buttons">
+      Follow us on <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+    </div>
+  </div>
 
+  <script src="myscript.js"></script>
 </body>
 
 </html>
