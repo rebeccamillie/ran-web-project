@@ -1,3 +1,12 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(bebas-neue/BebasNeue.OTF);
+}
+
+div {
+    font-family: myFirstFont;
+}
+
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
@@ -62,11 +71,10 @@ img {
 
 h1 {
  color: black;
- font-family: Arial;
+ font-family: myFirstFont;
  font-size: 30px;
  text-align: center;
 }
-
 
 .footer {
     position: relative;

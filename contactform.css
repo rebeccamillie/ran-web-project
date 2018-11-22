@@ -1,3 +1,13 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(bebas-neue/BebasNeue.OTF);
+}
+
+div {
+    font-family: myFirstFont;
+}
+
+
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
