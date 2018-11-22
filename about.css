@@ -73,6 +73,10 @@ img {
   }
 }
 
+body {
+  background-color: #e8f0f0;
+}
+
 @font-face {
     font-family: myOtherFontBold;
     src: url(roboto-condensed/RobotoCondensed-Bold.TTF);
