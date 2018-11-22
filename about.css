@@ -85,27 +85,38 @@ img {
 }
 
 h1 {
- color: black;
+ color: #00b899;
+ background-color: #131f28;
  font-family: myOtherFontBold;
  font-size: 30px;
  text-align: center;
+ float: center;
+ margin: 0px;
+
 }
 
 h2 {color: black;
 font-family: myOtherFont;
 font-size: 25px;
 text-align: left;
+margin: 0px;
+background-color: #527a7a;
+
 }
 h3 {color: black;
 font-family: myOtherFont;
 font-size: 25px;
 text-align: left;
+margin: 0px;
+background-color: #527a7a;
+
 }
 p, li {color: black;
 font-family: myOtherFontLight;
 font-size: 20px;
 text-align: left;
-
+margin: 0px;
+background-color: #527a7a;
 }
 
 .footer {
@@ -160,4 +171,8 @@ text-align: left;
 .fa-twitter {
     background: #55ACEE;
     color: white;
+}
+
+body, html {
+  height: 100%;
 }
