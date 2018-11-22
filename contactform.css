@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(bebas-neue/BebasNeue.OTF);
+    src: url(bebas-neue/BebasNeue.otf);
 }
 
 div {
@@ -84,7 +84,7 @@ body, html {
 
 @font-face {
     font-family: myOtherFontBold;
-    src: url(roboto-condensed/RobotoCondensed-Bold.TTF);
+    src: url(roboto-condensed/RobotoCondensed-Bold.ttf);
 }
 
 

@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(bebas-neue/BebasNeue.OTF);
+    src: url(bebas-neue/BebasNeue.otf);
 }
 
 div {
@@ -79,17 +79,17 @@ body {
 
 @font-face {
     font-family: myOtherFontBold;
-    src: url(roboto-condensed/RobotoCondensed-Bold.TTF);
+    src: url(roboto-condensed/RobotoCondensed-Bold.ttf);
 }
 
 @font-face {
     font-family: myOtherFont;
-    src: url(roboto-condensed/RobotoCondensed-Regular.TTF);
+    src: url(roboto-condensed/RobotoCondensed-Regular.ttf);
 }
 
 @font-face {
     font-family: myOtherFontLight;
-    src: url(roboto-condensed/RobotoCondensed-Light.TTF);
+    src: url(roboto-condensed/RobotoCondensed-Light.ttf);
 }
 
 h1 {
