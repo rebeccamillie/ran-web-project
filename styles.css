@@ -10,7 +10,6 @@ div {
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
   background-color: #e8f0f0;
   padding: 20px 10px;
 }
@@ -18,12 +17,10 @@ div {
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
   color: #00b899;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 25px;
   font-size: 26px;
   font-style: arial;
   font-weight: bold;
@@ -79,16 +76,12 @@ img {
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body, html {
   height: 100%;
-  margin: 0;
-  font-family: Arial;
   font-family:sans-serif;
   background-color: #e8f0f0;
 }
 
 /* Style tab links */
 .tablink {
-  background-color: #555;
-  color: black;
   background-color: #131f28;
   color: white;
   float: left;
@@ -96,7 +89,6 @@ body, html {
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  font-size: 17px;
   font-size: 28px;
   font-weight: bold;
   font-style: Arial;
@@ -116,8 +108,6 @@ body, html {
 }
 
 #Homeless {
-  background-color: #ccff66;
-  color: black;
   background-color:  #527a7a;
   color: white;
   font-style: Arial;
@@ -125,8 +115,6 @@ body, html {
 }
 
 #Helpers {
-  background-color: #ffff66;
-  color: black;
   background-color: #527a7a;
   color: white;
   font-style: Arial;
@@ -135,8 +123,6 @@ body, html {
 
 
 
-header {
-  height: 100%;
 
 div.gallery {
     border: 1px solid #131f28;
