@@ -7,7 +7,6 @@ div {
     font-family: myFirstFont;
 }
 
-
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
@@ -79,13 +78,18 @@ body, html {
   background-color: #e8f0f0;
 }
 
+@font-face {
+    font-family: myOtherFontBold;
+    src: url(roboto-condensed/RobotoCondensed-Bold.TTF);
+}
+
+
 h1 {
   background-color: #e8f0f0;
   color:  #131f28;
-  font-family: arial;
-  font-style: italic;
+  font-family: myOtherFontBold;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 45px;
   margin-top: 0px;
   margin-bottom: 0px;
   height: 12%;

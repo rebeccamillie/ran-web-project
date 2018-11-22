@@ -69,11 +69,43 @@ img {
   }
 }
 
+@font-face {
+    font-family: myOtherFontBold;
+    src: url(roboto-condensed/RobotoCondensed-Bold.TTF);
+}
+
+@font-face {
+    font-family: myOtherFont;
+    src: url(roboto-condensed/RobotoCondensed-Regular.TTF);
+}
+
+@font-face {
+    font-family: myOtherFontLight;
+    src: url(roboto-condensed/RobotoCondensed-Light.TTF);
+}
+
 h1 {
  color: black;
- font-family: myFirstFont;
+ font-family: myOtherFontBold;
  font-size: 30px;
  text-align: center;
+}
+
+h2 {color: black;
+font-family: myOtherFont;
+font-size: 25px;
+text-align: left;
+}
+h3 {color: black;
+font-family: myOtherFont;
+font-size: 25px;
+text-align: left;
+}
+p, li {color: black;
+font-family: myOtherFontLight;
+font-size: 20px;
+text-align: left;
+
 }
 
 .footer {
