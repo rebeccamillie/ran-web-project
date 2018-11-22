@@ -96,32 +96,36 @@ h1 {
  color: #00b899;
  background-color: #131f28;
  font-family: myOtherFontBold;
- font-size: 30px;
+ font-size: 40px;
  text-align: center;
- float: center;
+
  margin: 0px;
 
 }
 
 h2 {color: black;
 font-family: myOtherFont;
-font-size: 25px;
-text-align: left;
-margin: 0px;
+font-size: 30px;
+text-align: justify;
+margin-top: 40px;
+margin-left: 30px;
 
 }
 h3 {color: black;
 font-family: myOtherFont;
 font-size: 25px;
-text-align: left;
-margin: 0px;
+text-align: justify;
+margin-left: 30px;
+margin-right: 30px;
+
 
 }
 p, li {color: black;
 font-family: myOtherFontLight;
 font-size: 20px;
-text-align: left;
-margin: 0px;
+text-align: justify;
+margin-left: 30px;
+margin-right: 30px;
 }
 
 
@@ -180,5 +184,9 @@ margin: 0px;
 }
 
 body, html {
+  height: 100%;
+}
+
+.about {
   height: 100%;
 }
